@@ -8,7 +8,7 @@ The data source for this project is the Digikala e-commerce website. The product
 The project will use two search algorithms to build search engines for products on the Digikala website:
 
 - ElasticSearch: A fast and scalable search engine that uses Okapi BM25 algorithm, to retrieve relevant documents based on user queries.
-- BERT: A deep learning model that uses transformers to encode natural language queries and product descriptions into a dense vector space, where the similarity between queries and products can be measured using cosine similarity.
+- BERT: The BERT engine will encode the product descriptions and user queries into dense vectors using transformers, save all comments embeddings, and calculate cosine similarity between the query and all sentences to retrieve the most similar products by calculating cosine similarity.
 
 The following steps will be taken:
 
